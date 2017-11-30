@@ -1,12 +1,128 @@
- <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
-		<meta charset="UTF-8">
-		<title>Pescados MARPESCA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>PESCADOS MARPESCA - O melhor em frutos do mar!</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&amp;subset=latin-ext" rel="stylesheet"> 
+		<script src="https://use.fontawesome.com/a4562f386d.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js"></script>
 	</head>
-
 	<body>
-		<p>em construção......</p>
+		<div id="inicio" class="container-fluid">
+			<div class="dropdown">
+				<button type="button" class="btn btn-default btn-collapse dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-bars"></i>
+				</button>
+				<ul class="dropdown-menu dropdown-menu-right">
+					<li><a href="#inicio">Início</a></li>
+					<li><a href="#quem-somos">Quem Somos</a></li>
+					<li><a href="#nossos-produtos">Nossos Produtos</a></li>
+					<li><a href="#como-chegar">Como Chegar</a></li>
+					<li><a href="#contato">Contato</a></li>
+					<li><a href="#galeria">Galeria</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-3 affix col-sidebar">
+					<div class="logo text-center">
+						<img src="logo.png">
+					</div>
+					<div id="contact-list" class="text-center">
+						<ul class="list-unstyled list-inline">
+							<li>
+								<a class="btn btn-default btn-sm" href="javascript:void(0)" onclick="event.preventDefault(); return false">
+									<i class="fa fa-facebook-official fa-lg"></i>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-default btn-sm" href="mailto:rodrigo.netto1@hotmail.com?Subject=Contato&Body=Olá">
+									<i class="fa fa-envelope fa-lg"></i>
+								</a>
+							</li>
+							<li>
+								<a class="btn btn-default btn-sm" href="#contato">
+									<i class="fa fa-whatsapp fa-lg"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="copyright" class="text-center">
+						<p>© 2017 PESCADOS MARPESCA <br>Todos os direitos reservados</p>
+					</div>
+				</div>
+				<div class="col-xs-12 visible-xs-block visible-sm-block col-xs-sidebar">
+					<div class="xs-logo text-center">
+						<img src="logo.png">
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-9 col-md-offset-3 col-content">
+					<div id="quem-somos" class="section">
+						<h2>Quem Somos</h2>
+						<p>Há 40 anos a peixaria PESCADOS MARPESCA  oferece o melhor em frutos do mar, no atacado e varejo. Diariamente recebemos nossos peixes, crustáceos e moluscos da colônia de pescadores da região e, depois de uma criteriosa seleção, os melhores produtos são colocados em nossas bancadas, onde você escolhe!</p>
+					</div>
+					<div id="nossos-produtos" class="section">
+						<h2>Nossos Produtos</h2>
+						<p>Trabalhamos com diversos tipos de peixes, crustáceos e moluscos: Anchova, Atum, Badejo, Cação, Camarão, Corvina Dourado, Lagosta, Linguado, Lula, Manjubinha, Meca, Merluza, Mexilhão, Namorado, Ostra, Ovas, Pargo, Pescada, Polvo, Robalo, Salmão, Sardinha, Tainha, Tilápia, Truta, Vermelho, entre outros. Venha conferir!</p>
+					</div>
+					<div id="como-chegar" class="section">
+						<h2>Como Chegar?</h2>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1834.2620696347913!2d-44.69773774833912!3d-23.151062789868515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9d0cd474b903cd%3A0xbf623136a55dcd40!2zMjPCsDA5JzAzLjIiUyA0NMKwNDEnNDkuNyJX!5e0!3m2!1spt-BR!2sbr!4v1507469372052" height="450" frameborder="0" style="width: 100%; border:0" allowfullscreen></iframe>
+					</div>
+					<div id="contato" class="section">
+						<h2>Contato</h2>
+						<div class="row">
+							<div class="col-sm-4 col-md-4">
+								Endereço<br />
+								BR-101, Km 175, Praia Grande<br />
+								Parati - RJ<br />
+								23970-000
+							</div>
+							<div class="col-sm-4 col-md-4">
+								<div class="visible-xs"><br /></div>
+								Telefones<br />
+								(24) 3371-4713<br />
+								(24) 99864-5752 - whatsapp<br />
+								(24) 99828-0033<br />
+								(24) 99848-3008
+							</div>
+							<div class="col-sm-4 col-md-4">
+								<div class="visible-xs"><br /></div>
+								E-mail<br />
+								rodrigo.netto1@hotmail.com
+							</div>
+						</div>
+					</div>
+					<div id="galeria" class="section">
+						<h2>Galeria</h2>
+						<div class="galleria">
+							 <img src="image_1.jpg">
+							 <img src="image_2.jpg">
+							 <img src="image_3.jpg">
+							 <img src="image_4.jpg">
+							 <img src="image_5.jpg">
+						</div>
+						<script>
+							(function() { 
+								Galleria.run('.galleria', {
+									height: 0.5625,
+									imageCrop: true,
+									carousel: true,
+									autoplay: 2000,
+									clicknext: true
+								});
+							}());
+						</script>
+					</div>
+					<div class="section develloped">
+						<p>desenvolvido por: <b><a href="leonardosolisbadaro.github.io">Leonardo S. Badaró</a></b></p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
-
-</html> 
+</html>
